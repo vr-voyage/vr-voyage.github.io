@@ -12,7 +12,8 @@
         "description": "Load 3D Models files like GLB/VRM at runtime.",
         "gitDependencies": {},
         "vpmDependencies": {
-          "com.vrchat.worlds": ">=3.5.2-beta.2"
+          "com.vrchat.worlds": ">=3.5.2-beta.2",
+          "io.github.vr-voyage.vrchat.glb-loader.shaders": ">=1.0.0"
         },
         "author": {
           "name": "Voyage Voyage",
@@ -206,6 +207,26 @@
         "unity": "2022.3",
         "unityRelease": "6f1",
         "url": "https://api.github.com/repos/vr-voyage/vrchat-glb-loader/zipball/v0-20240326"
+      }
+    },
+    "io.github.vr-voyage.vrchat.glb-loader.shaders": {
+      "1.0.0": {
+        "name": "io.github.vr-voyage.vrchat.glb-loader.shaders",
+        "displayName": "Voyage 3D Model Loader Shaders",
+        "version": "1.0.0",
+        "description": "Modified shaders used by the 3D Model Loader",
+        "gitDependencies": {},
+        "vpmDependencies": {},
+        "author": {
+          "name": "Voyage Voyage",
+          "email": "voyage@dontcontactmebymail.com",
+          "url": "https://github.com/vr-voyage"
+        },
+        "legacyFolders": {},
+        "legacyFiles": {},
+        "unity": "2022.3",
+        "unityRelease": "6f1",
+        "url": "https://api.github.com/repos/vr-voyage/vrchat-glb-loader-shaders/zipball/v1.0.0"
       }
     }
   }
