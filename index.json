@@ -1,7 +1,7 @@
 {
   "name": "Voyage Voyage VRChat Gimmicks",
   "id": "io.github.vr-voyage",
-  "url": "https://vr-voyage.github.io/index.json",
+  "url": "https://github.com/vr-voyage",
   "author": "Voyage Voyage",
   "packages": {
     "io.github.vr-voyage.vrchat.glb-loader": {
@@ -12,7 +12,7 @@
         "description": "Load 3D Models files like GLB/VRM at runtime.",
         "gitDependencies": {},
         "vpmDependencies": {
-          "com.vrchat.worlds": ">=3.5.2-beta.2",
+          "com.vrchat.worlds": ">=3.5.2",
           "io.github.vr-voyage.vrchat.glb-loader.shaders": ">=1.0.0"
         },
         "author": {
@@ -23,7 +23,7 @@
         "legacyFolders": {},
         "legacyFiles": {},
         "unity": "2022.3",
-        "unityRelease": "6f1",
+        "unityRelease": "22f1",
         "url": "https://api.github.com/repos/vr-voyage/vrchat-glb-loader/zipball/v1.0.1"
       },
       "1.0.0": {
@@ -33,7 +33,7 @@
         "description": "Load 3D Models files like GLB/VRM at runtime.",
         "gitDependencies": {},
         "vpmDependencies": {
-          "com.vrchat.worlds": ">=3.5.2-beta.2"
+          "com.vrchat.worlds": ">=3.5.2"
         },
         "author": {
           "name": "Voyage Voyage",
@@ -43,7 +43,7 @@
         "legacyFolders": {},
         "legacyFiles": {},
         "unity": "2022.3",
-        "unityRelease": "6f1",
+        "unityRelease": "22f1",
         "url": "https://api.github.com/repos/vr-voyage/vrchat-glb-loader/zipball/v1"
       }
     },
@@ -63,7 +63,7 @@
         "legacyFolders": {},
         "legacyFiles": {},
         "unity": "2022.3",
-        "unityRelease": "6f1",
+        "unityRelease": "22f1",
         "url": "https://api.github.com/repos/vr-voyage/vrchat-glb-loader-shaders/zipball/v1.0.0"
       }
     }
