@@ -5,61 +5,67 @@
   "author": "Voyage Voyage",
   "packages": {
     "io.github.vr-voyage.vrchat.glb-loader": {
-      "1.0.1": {
-        "name": "io.github.vr-voyage.vrchat.glb-loader",
-        "displayName": "Voyage 3D Model Loader",
-        "version": "1.0.1",
-        "description": "Load 3D Models files like GLB/VRM at runtime.",
-        "vpmDependencies": {
-          "com.vrchat.worlds": ">=3.5.2",
-          "io.github.vr-voyage.vrchat.glb-loader.shaders": ">=1.0.0"
+      "versions": {
+        "1.0.1": {
+          "name": "io.github.vr-voyage.vrchat.glb-loader",
+          "displayName": "Voyage 3D Model Loader",
+          "version": "1.0.1",
+          "description": "Load 3D Models files like GLB/VRM at runtime.",
+          "vpmDependencies": {
+            "com.vrchat.worlds": ">=3.5.2",
+            "io.github.vr-voyage.vrchat.glb-loader.shaders": ">=1.0.0"
+          },
+          "author": {
+            "name": "Voyage Voyage",
+            "email": "voyage@dontcontactmebymail.com",
+            "url": "https://github.com/vr-voyage"
+          },
+          "legacyFolders": {},
+          "legacyFiles": {},
+          "unity": "2022.3",
+          "url": "https://api.github.com/repos/vr-voyage/vrchat-glb-loader/zipball/v1.0.1"
         },
-        "author": {
-          "name": "Voyage Voyage",
-          "email": "voyage@dontcontactmebymail.com",
-          "url": "https://github.com/vr-voyage"
-        },
-        "legacyFolders": {},
-        "legacyFiles": {},
-        "unity": "2022.3",
-        "url": "https://api.github.com/repos/vr-voyage/vrchat-glb-loader/zipball/v1.0.1"
-      },
-      "1.0.0": {
-        "name": "io.github.vr-voyage.vrchat.glb-loader",
-        "displayName": "Voyage 3D Model Loader",
-        "version": "1.0.0",
-        "description": "Load 3D Models files like GLB/VRM at runtime.",
-        "vpmDependencies": {
-          "com.vrchat.worlds": ">=3.5.2"
-        },
-        "author": {
-          "name": "Voyage Voyage",
-          "email": "voyage@dontcontactmebymail.com",
-          "url": "https://github.com/vr-voyage"
-        },
-        "legacyFolders": {},
-        "legacyFiles": {},
-        "unity": "2022.3",
-        "url": "https://api.github.com/repos/vr-voyage/vrchat-glb-loader/zipball/v1"
+        "1.0.0": {
+          "name": "io.github.vr-voyage.vrchat.glb-loader",
+          "displayName": "Voyage 3D Model Loader",
+          "version": "1.0.0",
+          "description": "Load 3D Models files like GLB/VRM at runtime.",
+          "vpmDependencies": {
+            "com.vrchat.worlds": ">=3.5.2"
+          },
+          "author": {
+            "name": "Voyage Voyage",
+            "email": "voyage@dontcontactmebymail.com",
+            "url": "https://github.com/vr-voyage"
+          },
+          "legacyFolders": {},
+          "legacyFiles": {},
+          "unity": "2022.3",
+          "url": "https://api.github.com/repos/vr-voyage/vrchat-glb-loader/zipball/v1"
+        }
       }
     },
     "io.github.vr-voyage.vrchat.glb-loader.shaders": {
-      "1.0.0": {
-        "name": "io.github.vr-voyage.vrchat.glb-loader.shaders",
-        "displayName": "Voyage 3D Model Loader Shaders",
-        "version": "1.0.0",
-        "description": "Modified shaders used by the 3D Model Loader",
-        "vpmDependencies": {},
-        "author": {
-          "name": "Voyage Voyage",
-          "email": "voyage@dontcontactmebymail.com",
-          "url": "https://github.com/vr-voyage"
-        },
-        "legacyFolders": {},
-        "legacyFiles": {},
-        "unity": "2022.3",
-        "url": "https://api.github.com/repos/vr-voyage/vrchat-glb-loader-shaders/zipball/v1.0.0"
+      "versions":
+      {
+        "1.0.0": {
+          "name": "io.github.vr-voyage.vrchat.glb-loader.shaders",
+          "displayName": "Voyage 3D Model Loader Shaders",
+          "version": "1.0.0",
+          "description": "Modified shaders used by the 3D Model Loader",
+          "vpmDependencies": {},
+          "author": {
+            "name": "Voyage Voyage",
+            "email": "voyage@dontcontactmebymail.com",
+            "url": "https://github.com/vr-voyage"
+          },
+          "legacyFolders": {},
+          "legacyFiles": {},
+          "unity": "2022.3",
+          "url": "https://api.github.com/repos/vr-voyage/vrchat-glb-loader-shaders/zipball/v1.0.0"
+        }
       }
+
     }
   }
 }
