@@ -13,8 +13,7 @@
           "description": "Load 3D Models files like GLB/VRM at runtime.",
           "gitDependencies": {},
           "vpmDependencies": {
-            "com.vrchat.worlds": ">=3.5.2-beta.2",
-            "io.github.vr-voyage.vrchat.glb-loader.shaders": ">=1.0.0"
+            "com.vrchat.worlds": ">=3.5.2-beta.2"
           },
           "author": {
             "name": "Voyage Voyage",
@@ -149,6 +148,29 @@
           ],
           "url": "https://esperecyan.github.io/VRMConverterForVRChat/packages/com.vrmc.gltf-0.128.1.zip",
           "zipSHA256": "7a06fb8ce534c792b851969fd337d2f85091313ad0371cf3966bf2650e910b61"
+        }
+      }
+    },
+    "io.github.vr-voyage.vrchat-glb-loader.utilities": {
+      "versions": {
+        "1.0.0": {
+          "name": "io.github.vr-voyage.vrchat-glb-loader.utilities",
+          "displayName": "Voyage 3D Model Loader Utilities",
+          "version": "1.0.0",
+          "description": "Utilities provided to convert Meshes to GLB file compatible with the VRChat Gimmick \"Voyage 3D Model Loader\"",
+          "gitDependencies": {},
+          "vpmDependencies": {
+            "io.github.vr-voyage.vrchat-glb-loader.shaders": ">=1.0.0",
+            "com.vrmc.univrm": ">=0.128.0"
+          },
+          "author": {
+            "name": "Voyage Voyage",
+            "email": "voyage@dontcontactmebymail.com",
+            "url": "https://github.com/vr-voyage"
+          },
+          "legacyFolders": {},
+          "legacyFiles": {},
+          "url": "https://github.com/vr-voyage/vrchat-glb-loader-utils/releases/download/v1.0.0/vrchat-glb-loader-utils-v1.0.0.zip"
         }
       }
     }
