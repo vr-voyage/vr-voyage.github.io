@@ -50,6 +50,107 @@
           "url": "https://github.com/vr-voyage/vrchat-glb-loader-shaders/releases/download/v1.0.0/vrchat-glb-loader-shaders-v1.0.0.zip"
         }
       }
+    },
+    "com.vrmc.univrm": {
+      "versions": {
+        "0.128.1": {
+          "name": "com.vrmc.univrm",
+          "version": "0.128.1",
+          "displayName": "VRM",
+          "description": "VRM importer",
+          "unity": "2021.3",
+          "keywords": [
+            "vrm",
+            "importer",
+            "avatar",
+            "vr"
+          ],
+          "author": {
+            "name": "VRM Consortium"
+          },
+          "dependencies": {
+            "com.vrmc.gltf": "0.128.1",
+            "com.unity.ugui": "1.0.0"
+          },
+          "samples": [
+            {
+              "displayName": "SimpleViewer",
+              "description": "VRM runtime loader sample",
+              "path": "Samples~/SimpleViewer"
+            },
+            {
+              "displayName": "FirstPersonSample",
+              "description": "First Person layer sample with multi camera",
+              "path": "Samples~/FirstPersonSample"
+            },
+            {
+              "displayName": "RuntimeExporterSample",
+              "description": "VRM runtime exporter sample",
+              "path": "Samples~/RuntimeExporterSample"
+            },
+            {
+              "displayName": "AnimationBridgeSample",
+              "description": "BlendShape animation clip sample",
+              "path": "Samples~/AnimationBridgeSample"
+            }
+          ],
+          "publishConfig": {
+            "registry": "https://package.openupm.com"
+          },
+          "vpmDependencies": {
+            "com.vrmc.gltf": "0.128.1"
+          },
+          "legacyFolders": {
+            "Assets/VRM": "75d26f96621a132458dec4d8f64e1e38"
+          },
+          "url": "https://esperecyan.github.io/VRMConverterForVRChat/packages/com.vrmc.univrm-0.128.1.zip",
+          "zipSHA256": "f75138a3cfcf1f858f247c5c04692acee7d00b6d4123d954dfceb752fed06ff8"
+        }
+      }
+    },
+    "com.vrmc.gltf": {
+      "versions": {
+        "0.128.1": {
+          "name": "com.vrmc.gltf",
+          "version": "0.128.1",
+          "displayName": "UniGLTF",
+          "description": "GLTF importer and exporter",
+          "unity": "2021.3",
+          "keywords": [
+            "gltf"
+          ],
+          "author": {
+            "name": "VRM Consortium"
+          },
+          "dependencies": {
+            "com.unity.modules.animation": "1.0.0"
+          },
+          "samples": [
+            {
+              "displayName": "GltfViewer",
+              "description": "UniGLTF runtime loader sample",
+              "path": "Samples~/GltfViewer"
+            }
+          ],
+          "publishConfig": {
+            "registry": "https://package.openupm.com"
+          },
+          "vpmDependencies": {},
+          "legacyFolders": {
+            "Assets/UniGLTF": "49e44e391b2db4e41bd32306cf7c7af5",
+            "Assets/MeshUtility": "f11c20c3f50e40b4f8f6259f8e0886e0",
+            "Assets/VRMShaders": "503ae90aee4d0224db69e4e74762223b"
+          },
+          "legacyFiles": {
+            "CombineMeshesAndSubMeshes.cs": null
+          },
+          "legacyPackages": [
+            "com.vrmc.vrmshaders"
+          ],
+          "url": "https://esperecyan.github.io/VRMConverterForVRChat/packages/com.vrmc.gltf-0.128.1.zip",
+          "zipSHA256": "7a06fb8ce534c792b851969fd337d2f85091313ad0371cf3966bf2650e910b61"
+        }
+      }
     }
   }
 }
