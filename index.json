@@ -94,17 +94,17 @@
         }
       }
     },
-    "io.github.vr-voyage.vrchat-glb-loader.utilities": {
+    "io.github.vr-voyage.vrchat.glb-loader.utilities": {
       "versions": {
-        "1.0.0": {
-          "name": "io.github.vr-voyage.vrchat-glb-loader.utilities",
+        "1.0.1": {
+          "name": "io.github.vr-voyage.vrchat.glb-loader.utilities",
           "displayName": "Voyage 3D Model Loader Utilities",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "description": "Utilities provided to convert Meshes to GLB file compatible with the VRChat Gimmick \"Voyage 3D Model Loader\"",
           "gitDependencies": {},
           "vpmDependencies": {
-            "io.github.vr-voyage.vrchat-glb-loader.shaders": ">=1.0.0",
-            "com.vrmc.univrm": ">=0.128.0"
+            "io.github.vr-voyage.vrchat.glb-loader.shaders": ">=1.0.0",
+            "com.vrmc.vrm": ">=0.131.0"
           },
           "author": {
             "name": "Voyage Voyage",
@@ -113,7 +113,34 @@
           },
           "legacyFolders": {},
           "legacyFiles": {},
-          "url": "https://github.com/vr-voyage/vrchat-glb-loader-utils/releases/download/v1.0.0/vrchat-glb-loader-utils-v1.0.0.zip"
+          "unity": "2022.3",
+          "url": "https://github.com/vr-voyage/vrchat-glb-loader-utils/releases/download/v1.0.1/vrchat-glb-loader-utils-v1.0.1.zip"
+        }
+      }
+    },
+    "io.github.vr-voyage.vrchat.glb-loader.tests": {
+      "versions": {
+        "1.0.0": {
+          "name": "io.github.vr-voyage.vrchat.glb-loader.tests",
+          "displayName": "Voyage 3D Model Loader Tests suite",
+          "version": "1.0.0",
+          "description": "Regression tests for my 3D Model Loader. While these run automatically within Unity, it still requires a Unity Installation and cannot be called 'Automated' tests per se.",
+          "gitDependencies": {},
+          "vpmDependencies": {
+            "com.vrchat.worlds": ">=3.5.2",
+            "io.github.vr-voyage.vrchat.glb-loader": ">=1.0.0"
+          },
+          "repository": "https://github.com/vr-voyage/vrchat-glb-loader",
+          "author": {
+            "name": "Voyage Voyage",
+            "email": "voyage@dontcontactmebymail.com",
+            "url": "https://github.com/vr-voyage"
+          },
+          "legacyFolders": {},
+          "legacyFiles": {},
+          "unity": "2022.3",
+          "unityRelease": "6f1",
+          "url": "https://github.com/vr-voyage/vrchat-glb-loader-tests/releases/download/v1.0.0/vrchat-glb-loader-tests-v1.0.0.zip"
         }
       }
     },
@@ -296,56 +323,6 @@
             "com.vrmc.vrmshaders"
           ],
           "url": "https://github.com/vr-voyage/UniVRM/releases/download/v0.131.0/vr-voyage-com.vrmc.gltf-v0.131.0.zip"
-        }
-      }
-    },
-    "io.github.vr-voyage.vrchat.glb-loader.utilities": {
-      "versions": {
-        "1.0.1": {
-          "name": "io.github.vr-voyage.vrchat.glb-loader.utilities",
-          "displayName": "Voyage 3D Model Loader Utilities",
-          "version": "1.0.1",
-          "description": "Utilities provided to convert Meshes to GLB file compatible with the VRChat Gimmick \"Voyage 3D Model Loader\"",
-          "gitDependencies": {},
-          "vpmDependencies": {
-            "io.github.vr-voyage.vrchat.glb-loader.shaders": ">=1.0.0",
-            "com.vrmc.vrm": ">=0.131.0"
-          },
-          "author": {
-            "name": "Voyage Voyage",
-            "email": "voyage@dontcontactmebymail.com",
-            "url": "https://github.com/vr-voyage"
-          },
-          "legacyFolders": {},
-          "legacyFiles": {},
-          "unity": "2022.3",
-          "url": "https://github.com/vr-voyage/vrchat-glb-loader-utils/releases/download/v1.0.1/vrchat-glb-loader-utils-v1.0.1.zip"
-        }
-      }
-    },
-    "io.github.vr-voyage.vrchat.glb-loader.tests": {
-      "versions": {
-        "1.0.0": {
-          "name": "io.github.vr-voyage.vrchat.glb-loader.tests",
-          "displayName": "Voyage 3D Model Loader Tests suite",
-          "version": "1.0.0",
-          "description": "Regression tests for my 3D Model Loader. While these run automatically within Unity, it still requires a Unity Installation and cannot be called 'Automated' tests per se.",
-          "gitDependencies": {},
-          "vpmDependencies": {
-            "com.vrchat.worlds": ">=3.5.2",
-            "io.github.vr-voyage.vrchat.glb-loader": ">=1.0.0"
-          },
-          "repository": "https://github.com/vr-voyage/vrchat-glb-loader",
-          "author": {
-            "name": "Voyage Voyage",
-            "email": "voyage@dontcontactmebymail.com",
-            "url": "https://github.com/vr-voyage"
-          },
-          "legacyFolders": {},
-          "legacyFiles": {},
-          "unity": "2022.3",
-          "unityRelease": "6f1",
-          "url": "https://github.com/vr-voyage/vrchat-glb-loader-tests/releases/download/v1.0.0/vrchat-glb-loader-tests-v1.0.0.zip"
         }
       }
     }
